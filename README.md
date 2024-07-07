@@ -33,29 +33,6 @@ Sample Response:
 }
 
 
-# GET By UUID
-
-Example URL : http://localhost:8080/api/accounts/0b5d9f2f-23fb-4fb3-b9b8-1e22c9b24451
-
-Description: Retrieves an account by its ID.
-
-Path Parameters: {id} UUID of the account to retrieve.
-
-Response: Returns details of the account corresponding to the provided ID.
-
-Sample Response:
-
-{
-    "success": true,
-    "message": "Accounts fetched successfully",
-    "data": [
-        {
-            "ownerId": "9c232936-3d6e-47c3-9ec7-34392e6c54a0",
-            "currency": "EUR",
-            "balance": 100.00
-        }
-    ]
-}
 
 # POST /api/accounts/create
 

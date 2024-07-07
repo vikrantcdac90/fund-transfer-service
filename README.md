@@ -111,11 +111,11 @@ Endpoint : POST /api/accounts/transfer
 
 Response: Returns a success message upon successful transfer.
 
-Sample Response:
+Sample payload to send a transfer request:
 
 {
     "fromOwnerId": "a3801546-6f51-48f8-ad69-16c33f0d6a3a",
-    "fromOwnerId": "b3801546-6f51-48f8-ad69-16c33f0d6a3b",
+    "toOwnerId": "b3801546-6f51-48f8-ad69-16c33f0d6a3b",
     "amount": 600.00
 }
 
@@ -139,9 +139,9 @@ fund transfer payload :
 
 {
     "fromOwnerId": "a3801546-6f51-48f8-ad69-16c33f0d6a3a",
-    "fromOwnerId": "b3801546-6f51-48f8-ad69-16c33f0d6a3b",
+    "toOwnerId": "b3801546-6f51-48f8-ad69-16c33f0d6a3b",
     "amount": 600.00
 }
 
 
-
+feel free to Contact for any issue : +352-661376222 (vikrant)

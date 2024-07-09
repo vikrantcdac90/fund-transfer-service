@@ -38,6 +38,7 @@ public class AccountService {
 		return accountRepository.findAll();
 	}
 
+	@Transactional
 	public void deleteAccountByOwnerId(UUID ownerId) {
 		log.info("Deleting account with owner ID: {}", ownerId);
 		accountRepository.deleteByOwnerId(ownerId);
@@ -48,6 +49,7 @@ public class AccountService {
 		return accountRepository.findByOwnerId(ownerId);
 	}
 
+	@Transactional
 	public Account createAccount(AccountDto createAccountDto) {
 		log.info("create account : {}", createAccountDto);
 		Account account = AccountMapper.INSTANCE.toEntity(createAccountDto);

@@ -21,6 +21,6 @@ public class OpenApiConfig {
                 .license(new License().name("Apache 2.0").url("http://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
                 .description("Account Management Wiki Documentation")
-                .url("https://springshop.wiki.github.org/docs"));
+                .url("http://localhost:8080/swagger-ui/index.html"));
     }
 }

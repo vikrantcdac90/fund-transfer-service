@@ -1,6 +1,6 @@
 # fund-transfer-service
 
-# Porject Name : Fund Transfer Service
+# Project Name : Fund Transfer Service
 
 # Swagger URL : http://localhost:8080/swagger-ui/index.html
 
